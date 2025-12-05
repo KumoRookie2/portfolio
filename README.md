@@ -1,25 +1,114 @@
-# Lingyun Chen's Portfolio  
+🚀 About Me
 
-## **About Me**  
+I enjoy designing backend architectures, cloud pipelines, and AI-driven applications that transform raw data into actionable insights.
 
-Passionate and results-driven **Software Engineer** with a Master's in **Informatics (Cloud Computing Concentration)** and a strong foundation in **Mathematics**. Experienced in:  
-- **Full-stack development** (Python, JavaScript, Flask, HTML5/CSS3)  
-- **Cloud architecture** (AWS Lambda, S3, RDS, DynamoDB)  
-- **AI/ML-driven solutions** (Pandas, NumPy, PyTest)  
+My experience ranges from building enterprise integrations (Outlook ↔ Zoho Creator) to engineering serverless pipelines with AWS Rekognition, to architecting AI-powered analytics platforms.
 
-Adept at designing scalable systems, optimizing workflows, and leveraging data to build innovative applications. Collaborative team player with leadership experience, including leading a 6-member team to develop an **Outlook-Zoho integration add-in**.  
+I thrive in roles where I can:
 
----
+Design scalable backend & cloud systems
 
-### **Key Strengths**  
-#### **Languages & Frameworks**  
-- **Python**: Flask, Pandas, NumPy, PyTest, AI/ML workflows  
-- **JavaScript**: Frontend development, API integrations (OAuth, REST)  
-- **Database**: SQL, AWS RDS, DynamoDB  
+Build API-driven workflows
 
-#### **Cloud & DevOps**  
-- AWS (Lambda, S3, Rekognition, SQS)  
-- Serverless architecture, CI/CD pipelines  
+Work with AI/ML pipelines & data engineering
 
-#### **Soft Skills**  
-- Agile collaboration, project leadership, problem-solving 
+Improve reliability through automation & observability
+
+🛠️ Technical Skills
+Languages
+
+Python, Java, C, C++, JavaScript/TypeScript, SQL, Bash
+
+Frameworks & Libraries
+
+Flask, FastAPI, Django, Spring Boot
+
+React, Node.js, Express
+
+PyTorch, TensorFlow
+
+Cloud & Infrastructure
+
+AWS: Lambda, S3, SQS, RDS, DynamoDB, Rekognition
+
+Serverless architecture, microservices, CI/CD pipelines
+
+Docker, Kubernetes
+
+Data & Analytics
+
+Pandas, NumPy, matplotlib
+
+Tableau, QuickSight
+
+SQL (MySQL, PostgreSQL), NoSQL (MongoDB, DynamoDB)
+
+📦 Highlighted Projects
+🔹 Outlook–Zoho Creator Add-in
+
+JavaScript | Python | Flask | OAuth
+
+Led a 6-member team to build an enterprise productivity add-in.
+
+Integrated Outlook with Zoho Creator using secure OAuth and REST APIs.
+
+Designed & tested workflows with Postman, reducing integration errors.
+
+🔹 AWS Rekognition Serverless Pipeline
+
+Python | Lambda | S3 | SQS | Rekognition
+
+Engineered an automated image-classification workflow using AWS serverless services.
+
+Replaced manual review with event-driven automation, improving scalability & efficiency.
+
+Enabled asynchronous processing via SQS for higher throughput.
+
+🔹 AI-Powered Career Analytics Platform
+
+Python | Flask | Pandas | AWS RDS/DynamoDB
+
+Built backend infrastructure to process large workforce datasets.
+
+Improved ML model accuracy through preprocessing pipelines.
+
+Deployed cloud-native storage & REST APIs supporting interactive analytics dashboards.
+
+💼 Professional Experience
+Software Engineer Intern — Guotai Junan Securities
+
+(Shanghai, China)
+
+Sept 2022 – Dec 2022
+
+Developed Java Spring services for IPO data processing & visualization.
+
+Improved deployment reliability via CI/CD in Git.
+
+Added observability metrics & dashboards for proactive monitoring.
+
+Jun 2023 – Aug 2023
+
+Built Python CLI tool to automate financial data cleaning.
+
+Designed Tableau dashboards for risk reporting.
+
+Contributed to migration from monolith → microservices, improving scalability.
+
+🎯 What I’m Working On
+
+Architecting intelligent systems that combine ML + Cloud
+
+Strengthening large-scale backend engineering skills
+
+Building a polished portfolio of AI + cloud applications
+
+📫 Contact
+
+Email: chen.lingyun@northeastern.edu
+
+LinkedIn: https://www.linkedin.com/in/lingyunc
+
+GitHub: https://github.com/KumoRookie2
+
+Location: Portland, ME
