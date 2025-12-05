@@ -1,259 +1,251 @@
-@@ -0,0 +1,258 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Lingyun Chen - Software Engineer & Developer | Backend, DevOps & Cloud Solutions">
-   <title>Lingyun Chen | Software Engineer</title>
-   <link href="styles.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
- </head>
- <body>
-   <nav>
-     <div class="container">
-       <a href="#about">About</a>
-       <a href="#projects">Projects</a>
-       <a href="#skills">Skills</a>
-       <a href="#experience">Experience</a>
-       <a href="#contact">Contact</a>
-     </div>
-   </nav>
- 
-   <section id="about">
-     <div class="container">
-       <h1>Lingyun Chen</h1>
-       <p class="subtitle">Software Engineer | Backend & DevOps Specialist</p>
-       
-       <div class="bio">
-         <p>Passionate and results-driven Software Engineer with expertise in backend development, DevOps practices, and cloud solutions. Strong foundation in building scalable systems, optimizing workflows, and implementing robust infrastructure. Experienced in leading technical teams to deliver high-impact projects.</p>
-         
-         <p>Specialized in designing efficient backend architectures, implementing CI/CD pipelines, and leveraging cloud technologies to solve complex problems. Committed to writing clean, maintainable code and implementing best practices in software development.</p>
-       </div>
-       
-       <div class="skills">
-         <span><i class="fab fa-python"></i> Python</span>
-         <span><i class="fab fa-aws"></i> AWS</span>
-         <span><i class="fas fa-server"></i> DevOps</span>
-         <span><i class="fas fa-database"></i> Databases</span>
-         <span><i class="fas fa-network-wired"></i> APIs</span>
-       </div>
-       
-       <div class="cta-buttons">
-         <a href="#projects" class="btn">View Projects</a>
-         <a href="#contact" class="btn">Contact Me</a>
-       </div>
-     </div>
-   </section>
- 
-   <section id="projects">
-     <div class="container">
-       <h2>Technical Projects</h2>
-       
-       <!-- Project 1: Outlook Zoho Add-in -->
-       <div class="project-card">
-         <div class="project-image">
-           <img src="images/zoho-addin.jpg" alt="Outlook Zoho Add-in">
-         </div>
-         <div class="project-details">
-           <h3>Outlook Zoho Creator Add-in</h3>
-           <div class="tech-tags">
-             <span>JavaScript</span>
-             <span>Python</span>
-             <span>Flask</span>
-             <span>OAuth</span>
-           </div>
-           <ul class="project-features">
-             <li>Led a team of 6 developers to create an Outlook add-in integrating with Zoho Creator API</li>
-             <li>Implemented OAuth authentication for secure data exchange between platforms</li>
-             <li>Optimized API endpoints using Flask and Postman, reducing errors by 35%</li>
-             <li>Enabled seamless data synchronization between Outlook and Zoho Creator</li>
-           </ul>
-           <div class="project-links">
-             <span class="btn disabled">Private Repository</span>
-           </div>
-         </div>
-       </div>
-       
-       <!-- Project 2: AWS Rekognition -->
-       <div class="project-card">
-         <div class="project-image">
-           <img src="images/aws-rekognition.jpg" alt="AWS Rekognition System">
-         </div>
-         <div class="project-details">
-           <h3>AWS Rekognition System</h3>
-           <div class="tech-tags">
-             <span>Python</span>
-             <span>AWS Lambda</span>
-             <span>SQS</span>
-             <span>S3</span>
-           </div>
-           <ul class="project-features">
-             <li>Built serverless image classification pipeline processing 500+ images/day</li>
-             <li>Designed AWS Lambda functions reducing processing time by 40%</li>
-             <li>Implemented SQS for asynchronous messaging, improving system reliability</li>
-             <li>Utilized S3 for cost-effective cloud storage with lifecycle policies</li>
-           </ul>
-           <div class="project-links">
-             <span class="btn disabled">Private Repository</span>
-           </div>
-         </div>
-       </div>
-       
-       <!-- Project 3: HR Analytics System -->
-       <div class="project-card">
-         <div class="project-image">
-           <img src="images/hr-analytics.jpg" alt="HR Analytics System">
-         </div>
-         <div class="project-details">
-           <h3>AI-Powered HR Analytics System</h3>
-           <div class="tech-tags">
-             <span>Python</span>
-             <span>Flask</span>
-             <span>Pandas</span>
-             <span>AWS RDS</span>
-           </div>
-           <ul class="project-features">
-             <li>Developed backend infrastructure supporting AI-driven career analytics</li>
-             <li>Processed workforce data using Pandas, improving ML model accuracy by 25%</li>
-             <li>Designed hybrid database architecture with AWS RDS and DynamoDB</li>
-             <li>Implemented PyTest for API testing with 95% coverage</li>
-           </ul>
-           <div class="project-links">
-             <span class="btn disabled">Private Repository</span>
-           </div>
-         </div>
-       </div>
-       
-       <!-- Project 4: IMDB Visualization -->
-       <div class="project-card">
-         <div class="project-image">
-           <img src="images/imdb-visualization.jpg" alt="IMDB Data Visualization">
-         </div>
-         <div class="project-details">
-           <h3>IMDB Movie Data Visualization</h3>
-           <div class="tech-tags">
-             <span>Python</span>
-             <span>Pandas</span>
-             <span>Matplotlib</span>
-             <span>Data Analysis</span>
-           </div>
-           <ul class="project-features">
-             <li>Analyzed 10,000+ movie records from IMDB dataset</li>
-             <li>Created interactive visualizations showing rating trends over time</li>
-             <li>Identified correlations between budget, revenue, and ratings</li>
-             <li>Developed genre-based recommendation metrics</li>
-           </ul>
-           <div class="project-links">
-             <span class="btn disabled">Private Repository</span>
-           </div>
-         </div>
-       </div>
-     </div>
-   </section>
- 
-   <section id="skills">
-     <div class="container">
-       <h2>Technical Skills</h2>
-       <div class="skills-grid">
-         <div class="skill-category">
-           <h3><i class="fas fa-code"></i> Programming</h3>
-           <ul>
-             <li><strong>Python</strong>: Flask, Pandas, NumPy, PyTest</li>
-             <li><strong>JavaScript</strong>: ES6+, DOM Manipulation</li>
-             <li><strong>SQL</strong>: Query Optimization, Database Design</li>
-           </ul>
-         </div>
-         
-         <div class="skill-category">
-           <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
-           <ul>
-             <li><strong>AWS</strong>: Lambda, S3, RDS, DynamoDB, SQS, Rekognition, QuickSight, Athena</li>
-             <li><strong>CI/CD</strong>: GitHub Actions, AWS CodePipeline</li>
-             <li><strong>Infrastructure</strong>: Serverless Architecture, Microservices</li>
-           </ul>
-         </div>
-         
-         <div class="skill-category">
-           <h3><i class="fas fa-database"></i> Data & Analytics</h3>
-           <ul>
-             <li><strong>Analysis</strong>: Pandas, NumPy, SciPy</li>
-             <li><strong>Visualization</strong>: Matplotlib, Seaborn, Tableau, QuickSight</li>
-             <li><strong>Processing</strong>: AWS Athena, ETL Pipelines</li>
-             <li><strong>Database</strong>: SQL, DynamoDB, RDS</li>
-           </ul>
-         </div>
-       </div>
-     </div>
-   </section>
- 
-   <section id="experience">
-     <div class="container">
-       <h2>Education & Professional Experience</h2>
-       <div class="timeline">
-         
-         <!-- Education -->
-         <div class="timeline-item education">
-           <h3>Northeastern University</h3>
-           <p class="date">2023 - 2025</p>
-           <p>Master of Science in Informatics</p>
-           <ul>
-             <li>GPA: 3.7/4.0</li>
-             <li>Concentration: Cloud Computing</li>
-             <li>Relevant Courses: Cloud Architecture, Web Development, Data Engineering, Machine Learning</li>
-           </ul>
-         </div>
-         
-         <div class="timeline-item education">
-           <h3>Tulane University</h3>
-           <p class="date">2017 - 2022</p>
-           <p>Bachelor of Mathematics</p>
-           <ul>
-             <li>Concentration: Topology</li>
-             <li>Relevant Courses: Advanced Regression, Linear Algebra, Applied Mathematics</li>
-           </ul>
-         </div>
-         
-         <!-- Professional Experience -->
-         <div class="timeline-item professional">
-           <h3>Guotai Junan Securities</h3>
-           <p class="date">Oct 2022 - Nov 2022</p>
-           <p>Project Coordinator Intern</p>
-           <ul>
-             <li>Developed Tableau dashboards for IPO risk analysis using historical issue data</li>
-             <li>Optimized ERP system architecture, improving documentation efficiency by 30%</li>
-             <li>Migrated three years of historical data from spreadsheets to Tableau for real-time analytics</li>
-           </ul>
-         </div>
-       </div>
-     </div>
-   </section>
- 
-   <section id="contact">
-     <div class="container">
-       <h2>Get In Touch</h2>
-       <div class="contact-methods">
-         <div class="contact-info">
-           <p><i class="fas fa-envelope"></i> chen.lingyun@northeastern.edu</p>
-           <p><i class="fas fa-phone"></i> +1 617-602-076</p>
-           <p><i class="fas fa-map-marker-alt"></i> Boston, MA</p>
-         </div>
-         <div class="social-links">
-           <a href="https://www.linkedin.com/in/lingyunc/" target="_blank" aria-label="LinkedIn">
-             <i class="fab fa-linkedin"></i>
-           </a>
-           <a href="https://github.com/KumoRookie2" target="_blank" aria-label="GitHub">
-             <i class="fab fa-github"></i>
-           </a>
-         </div>
-       </div>
-     </div>
-   </section>
- 
-   <footer>
-     <div class="container">
-       <p>&copy; 2024 Lingyun Chen. All rights reserved.</p>
-     </div>
-   </footer>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lingyun Chen - Software Engineer & Developer | Backend, DevOps & Cloud Solutions">
+    <title>Lingyun Chen | Software Engineer</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<nav>
+    <div class="container">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section id="about">
+    <div class="container">
+        <h1>Lingyun Chen</h1>
+        <p class="subtitle">Software Engineer | Backend & Cloud Engineer</p>
+
+        <div class="bio">
+            <p>
+                Passionate and results-driven Software Engineer with expertise in backend development, cloud solutions,
+                and data-driven systems. Strong foundation in building scalable services, optimizing workflows, and integrating
+                distributed components.
+            </p>
+            <p>
+                Specialized in designing efficient backend architectures, serverless pipelines, and cloud-native data platforms.
+                Experienced in integrating APIs, automating data processing, and collaborating with cross-functional teams to
+                deliver robust, production-ready solutions.
+            </p>
+        </div>
+
+        <div class="skills">
+            <span><i class="fab fa-python"></i> Python</span>
+            <span><i class="fab fa-aws"></i> AWS</span>
+            <span><i class="fas fa-server"></i> Backend</span>
+            <span><i class="fas fa-database"></i> Databases</span>
+            <span><i class="fas fa-network-wired"></i> APIs</span>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <h2>Technical Projects</h2>
+
+        <!-- Project 1: Outlook Zoho Add-in -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/zoho-addin.jpg" alt="Outlook Zoho Add-in">
+            </div>
+            <div class="project-details">
+                <h3>Outlook Zoho Creator Add-in</h3>
+                <div class="tech-tags">
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>OAuth</span>
+                </div>
+                <ul class="project-features">
+                    <li>Led a 6-person team to deliver an Outlook add-in integrating with Zoho Creator APIs.</li>
+                    <li>Implemented OAuth authentication for secure data exchange between Outlook and Zoho Creator.</li>
+                    <li>Designed and tested API workflows with Postman, reducing integration errors and improving reliability.</li>
+                    <li>Enabled seamless CRM data synchronization directly from the email interface.</li>
+                </ul>
+                <div class="project-links">
+                    <span class="btn disabled">Private Repository</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2: AWS Rekognition -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/aws-rekognition.jpg" alt="AWS Rekognition System">
+            </div>
+            <div class="project-details">
+                <h3>AWS Rekognition Image System</h3>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>AWS Lambda</span>
+                    <span>SQS</span>
+                    <span>S3</span>
+                </div>
+                <ul class="project-features">
+                    <li>Engineered a serverless image-processing pipeline using AWS Rekognition and Lambda.</li>
+                    <li>Automated classification tasks previously handled manually, improving throughput and consistency.</li>
+                    <li>Leveraged S3 and SQS for asynchronous storage and messaging to decouple components.</li>
+                    <li>Improved system scalability and reduced operational overhead with event-driven architecture.</li>
+                </ul>
+                <div class="project-links">
+                    <span class="btn disabled">Private Repository</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3: AI-Powered Career Analytics -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/hr-analytics.jpg" alt="AI-Powered Career Analytics Platform">
+            </div>
+            <div class="project-details">
+                <h3>AI-Powered Career Analytics Platform</h3>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>Pandas</span>
+                    <span>AWS RDS</span>
+                    <span>DynamoDB</span>
+                </div>
+                <ul class="project-features">
+                    <li>Architected a backend with Flask + Pandas to process workforce datasets for career analytics.</li>
+                    <li>Improved ML model accuracy with data preprocessing and feature engineering on tabular HR data.</li>
+                    <li>Designed cloud-native storage using AWS RDS and DynamoDB for secure, scalable data access.</li>
+                    <li>Exposed APIs to support AI-driven dashboards, streamlining HR decision-making workflows.</li>
+                </ul>
+                <div class="project-links">
+                    <span class="btn disabled">Private Repository</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Programming & Frameworks</h3>
+                <ul>
+                    <li><strong>Languages:</strong> Java, Python, C, C++, JavaScript/TypeScript, SQL, Bash, HTML, CSS</li>
+                    <li><strong>Backend & Web:</strong> Flask, Django, Spring Boot, FastAPI, Node.js, Express.js, React</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-cloud"></i> Cloud & Databases</h3>
+                <ul>
+                    <li><strong>Cloud:</strong> AWS, GCP, Azure</li>
+                    <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Redis, AWS RDS, DynamoDB</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Data, ML & Tools</h3>
+                <ul>
+                    <li><strong>ML & DL:</strong> PyTorch, TensorFlow (coursework and projects)</li>
+                    <li><strong>Data & Analytics:</strong> Pandas, NumPy, Tableau, Jupyter Notebook</li>
+                    <li><strong>Dev Tools:</strong> Git, Docker, Kubernetes, Webpack, Postman, Maven</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+        <h2>Education & Professional Experience</h2>
+        <div class="timeline">
+
+            <!-- Education: MS AI -->
+            <div class="timeline-item education">
+                <h3>Northeastern University</h3>
+                <p class="date">Sep 2025 – May 2027 (Expected)</p>
+                <p>Master of Science in Artificial Intelligence</p>
+                <ul>
+                    <li>Relevant coursework: Algorithms, Data Processing for AI, Pattern Recognition and Computer Vision, NLP, Advanced ML, Deep Learning.</li>
+                </ul>
+            </div>
+
+            <!-- Education: MS Informatics -->
+            <div class="timeline-item education">
+                <h3>Northeastern University</h3>
+                <p class="date">Sep 2023 – Apr 2025</p>
+                <p>Master of Science in Informatics, Cloud Computing Concentration (GPA: 3.7/4.0)</p>
+                <ul>
+                    <li>Relevant coursework: IT Infrastructure, Applied Experiential Projects, AWS Cloud Architecting, Web App Design & Development, AI-driven Career & HR Analytics Capstone.</li>
+                </ul>
+            </div>
+
+            <!-- Experience 1 -->
+            <div class="timeline-item professional">
+                <h3>Guotai Junan Securities Co., Ltd</h3>
+                <p class="date">Sep 2022 – Dec 2022</p>
+                <p>Software Engineer Intern | Java, Spring, Git</p>
+                <ul>
+                    <li>Developed Java Spring-based web applications for data cleaning and IPO risk visualization.</li>
+                    <li>Integrated backend services with interactive Tableau dashboards to support faster risk analysis.</li>
+                    <li>Implemented CI/CD pipelines in Git, improving deployment reliability and release speed.</li>
+                    <li>Introduced observability dashboards for proactive system monitoring and issue detection.</li>
+                </ul>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="timeline-item professional">
+                <h3>Guotai Junan Securities Co., Ltd</h3>
+                <p class="date">Jun 2023 – Aug 2023</p>
+                <p>Software Engineer Intern | Java, Python, Tableau, Microservices</p>
+                <ul>
+                    <li>Built a Python CLI tool to automate data cleaning for IPO risk analysis.</li>
+                    <li>Designed Tableau dashboards that enabled faster reporting and data-driven decisions.</li>
+                    <li>Contributed to migration from a legacy monolith to microservices for better scalability.</li>
+                    <li>Collaborated with senior engineers on backend design and release management.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-methods">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> chen.lingyun@northeastern.edu</p>
+                <p><i class="fas fa-phone"></i> +1 (617) 602-0769</p>
+                <p><i class="fas fa-map-marker-alt"></i> Portland, ME</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/lingyunc/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/KumoRookie2" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Lingyun Chen. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
